@@ -1,0 +1,71 @@
+INFO using server address 127.0.0.1
+INFO start
+INFO step 1/3 done
+INFO step 2/3 done
+INFO step 3/3 done
+INFO warmup done
+INFO -----------------------------------------------------------------------------
+INFO ArangoDB: warmup, 0 items
+INFO Total Time for 0 requests: 80138 ms
+INFO Average: Infinity ms
+INFO -----------------------------------------------------------------------------
+INFO executing shortest path for 1000 paths
+INFO total paths length: 1364
+INFO -----------------------------------------------------------------------------
+INFO ArangoDB: shortest path, 1000 items
+INFO Total Time for 1000 requests: 383 ms
+INFO Average: 0.383 ms
+INFO -----------------------------------------------------------------------------
+INFO executing neighbors for 1000 elements
+INFO total number of neighbors found: 12308
+INFO -----------------------------------------------------------------------------
+INFO ArangoDB: neighbors, 12308 items
+INFO Total Time for 12308 requests: 325 ms
+INFO Average: 0.026405589860253494 ms
+INFO -----------------------------------------------------------------------------
+INFO executing distinct neighbors of 1st and 2nd degree for 1000 elements
+INFO total number of neighbors2 found: 584490
+INFO -----------------------------------------------------------------------------
+INFO ArangoDB: neighbors2, 584490 items
+INFO Total Time for 584490 requests: 2778 ms
+INFO Average: 0.0047528614689729505 ms
+INFO -----------------------------------------------------------------------------
+INFO executing single read with 100000 documents
+INFO -----------------------------------------------------------------------------
+INFO ArangoDB: single reads, 100000 items
+INFO Total Time for 100000 requests: 27618 ms
+INFO Average: 0.27618 ms
+INFO -----------------------------------------------------------------------------
+INFO executing single write with 100000 documents
+INFO -----------------------------------------------------------------------------
+INFO ArangoDB: single writes, 100000 items
+INFO Total Time for 100000 requests: 29650 ms
+INFO Average: 0.2965 ms
+INFO -----------------------------------------------------------------------------
+INFO executing single write sync with 100000 documents
+INFO -----------------------------------------------------------------------------
+INFO ArangoDB: single writes sync, 100000 items
+INFO Total Time for 100000 requests: 51232 ms
+INFO Average: 0.51232 ms
+INFO -----------------------------------------------------------------------------
+INFO executing aggregation
+INFO -----------------------------------------------------------------------------
+INFO ArangoDB: aggregate, 1 items
+INFO Total Time for 1 requests: 2865 ms
+INFO Average: 2865 ms
+INFO -----------------------------------------------------------------------------
+INFO executing hard path
+INFO total paths length: 0
+INFO -----------------------------------------------------------------------------
+INFO ArangoDB: hard path, 1 items
+INFO Total Time for 1 requests: 2 ms
+INFO Average: 2 ms
+INFO -----------------------------------------------------------------------------
+INFO executing distinct neighbors of 1st and 2nd degree with profiles for 100 elements
+INFO total number of neighbors2 with profiles found: 52754
+INFO -----------------------------------------------------------------------------
+INFO ArangoDB: neighbors2data, 52754 items
+INFO Total Time for 52754 requests: 4906 ms
+INFO Average: 0.09299768737915608 ms
+INFO -----------------------------------------------------------------------------
+DONE
