@@ -1,0 +1,24 @@
+hardware used in tests
+
+OS Ubuntu 18.04.5 LTS
+Ram:                 32.00 GB
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              16
+On-line CPU(s) list: 0-15
+Thread(s) per core:  2
+Core(s) per socket:  8
+Socket(s):           1
+Vendor ID:           AuthenticAMD
+CPU family:          23
+Model:               8
+Model name:          AMD Ryzen 7 2700 Eight-Core Processor
+Stepping:            2
+CPU MHz:             3194.105
+BogoMIPS:            6388.21
+Virtualization:      AMD-V
+Hypervisor vendor:   Microsoft
+Virtualization type: full
+L1d cache:           32K
+L1i cache:           64K

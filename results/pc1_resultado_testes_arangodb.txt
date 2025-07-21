@@ -6,66 +6,66 @@ INFO step 3/3 done
 INFO warmup done
 INFO -----------------------------------------------------------------------------
 INFO ArangoDB: warmup, 0 items
-INFO Total Time for 0 requests: 884 ms
+INFO Total Time for 0 requests: 143315 ms
 INFO Average: Infinity ms
 INFO -----------------------------------------------------------------------------
 INFO executing shortest path for 1000 paths
 INFO total paths length: 1364
 INFO -----------------------------------------------------------------------------
 INFO ArangoDB: shortest path, 1000 items
-INFO Total Time for 1000 requests: 1582 ms
-INFO Average: 1.582 ms
+INFO Total Time for 1000 requests: 1042 ms
+INFO Average: 1.042 ms
 INFO -----------------------------------------------------------------------------
 INFO executing neighbors for 1000 elements
 INFO total number of neighbors found: 12308
 INFO -----------------------------------------------------------------------------
 INFO ArangoDB: neighbors, 12308 items
-INFO Total Time for 12308 requests: 1484 ms
-INFO Average: 0.12057198570035749 ms
+INFO Total Time for 12308 requests: 907 ms
+INFO Average: 0.07369190770230745 ms
 INFO -----------------------------------------------------------------------------
 INFO executing distinct neighbors of 1st and 2nd degree for 1000 elements
 INFO total number of neighbors2 found: 584490
 INFO -----------------------------------------------------------------------------
 INFO ArangoDB: neighbors2, 584490 items
-INFO Total Time for 584490 requests: 10468 ms
-INFO Average: 0.017909630618145735 ms
+INFO Total Time for 584490 requests: 4261 ms
+INFO Average: 0.007290116169652175 ms
 INFO -----------------------------------------------------------------------------
 INFO executing single read with 100000 documents
 INFO -----------------------------------------------------------------------------
 INFO ArangoDB: single reads, 100000 items
-INFO Total Time for 100000 requests: 42199 ms
-INFO Average: 0.42199 ms
+INFO Total Time for 100000 requests: 34409 ms
+INFO Average: 0.34409 ms
 INFO -----------------------------------------------------------------------------
 INFO executing single write with 100000 documents
 INFO -----------------------------------------------------------------------------
 INFO ArangoDB: single writes, 100000 items
-INFO Total Time for 100000 requests: 39852 ms
-INFO Average: 0.39852 ms
+INFO Total Time for 100000 requests: 38372 ms
+INFO Average: 0.38372 ms
 INFO -----------------------------------------------------------------------------
 INFO executing single write sync with 100000 documents
 INFO -----------------------------------------------------------------------------
 INFO ArangoDB: single writes sync, 100000 items
-INFO Total Time for 100000 requests: 54526 ms
-INFO Average: 0.54526 ms
+INFO Total Time for 100000 requests: 53562 ms
+INFO Average: 0.53562 ms
 INFO -----------------------------------------------------------------------------
 INFO executing aggregation
 INFO -----------------------------------------------------------------------------
 INFO ArangoDB: aggregate, 1 items
-INFO Total Time for 1 requests: 8884 ms
-INFO Average: 8884 ms
+INFO Total Time for 1 requests: 33900 ms
+INFO Average: 33900 ms
 INFO -----------------------------------------------------------------------------
 INFO executing hard path
 INFO total paths length: 0
 INFO -----------------------------------------------------------------------------
 INFO ArangoDB: hard path, 1 items
-INFO Total Time for 1 requests: 3 ms
-INFO Average: 3 ms
+INFO Total Time for 1 requests: 5 ms
+INFO Average: 5 ms
 INFO -----------------------------------------------------------------------------
 INFO executing distinct neighbors of 1st and 2nd degree with profiles for 100 elements
 INFO total number of neighbors2 with profiles found: 52754
 INFO -----------------------------------------------------------------------------
 INFO ArangoDB: neighbors2data, 52754 items
-INFO Total Time for 52754 requests: 9080 ms
-INFO Average: 0.17211964969480986 ms
+INFO Total Time for 52754 requests: 5480 ms
+INFO Average: 0.10387837889070023 ms
 INFO -----------------------------------------------------------------------------
 DONE
